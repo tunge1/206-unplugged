@@ -88,6 +88,14 @@ textarea {
    ========================================================================== */
 
 /* --------------- Base Header and Footer Styles ---------------------------- */
+.content-wrapper {
+  width: 90%;
+}
+
+header {
+  padding: 15px 0;
+}
+
 header, footer {
   display: flex;
   justify-content: center;
@@ -100,6 +108,11 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+.header-divider {
+  width: 100%;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -107,10 +120,20 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
+}
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -124,12 +147,16 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+footer .copyright {
+  margin: 20px 0;
+}
 /* --------------------- Mobile - Homepage ---------------------------------- */
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+
 aside {
   display: flex;
   justify-content: center;
@@ -140,16 +167,34 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+.features h2 {
+  margin-bottom: 50px;
+}
+
+.features article {
+  width: 55%;
+  margin: 20px 0;
+}
+.features p {
+  margin: 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 49%;
+  margin: 20px 0;
 }
 /* --------------------- Mobile - About ---------------------------------- */
 .mission {
@@ -172,11 +217,18 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-.faq .faq-section {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+.faq h2 {
+  margin-bottom: 50px;
+}
+.faq content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
