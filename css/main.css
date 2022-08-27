@@ -339,6 +339,22 @@ button {
   background-color: #527158;
 }
 
+.map figure {
+  position: relative;
+  padding-bottom: 75%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
 .content-section {
   display: flex;
   justify-content: center;
@@ -601,19 +617,7 @@ button {
       }
 
       .map figure {
-        position: relative;
-        padding-bottom: 125%;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-      }
-
-      .map iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%
+        padding-bottom: 46%;
       }
 
       .contact-section .content-wrapper h2 {
@@ -710,10 +714,16 @@ button {
       }
 
       /* About Page */
+
       .mission h2, .contact-section .content-wrapper h2 {
       width: 95%;
       font-size: 3em;
       }
+
+      .map figure {
+        padding-bottom: 37.5%;
+      }
+
       /* FAQ Page */
       .faq h2 {
       width: 100%;
