@@ -143,7 +143,6 @@ address {
 /* --------------- Base Header and Footer Styles ---------------------------- */
 header {
   padding: 15px 0;
-  min-height: 120px;
 }
 
 header, footer {
@@ -160,10 +159,6 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-}
-
-header .content-wrapper img {
-  width: 40%;
 }
 
 header figure {
@@ -195,6 +190,7 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  text-decoration: bold;
 }
 footer {
   flex-direction: column;
@@ -246,7 +242,7 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  text-size: 2.25em;
+  font-size: 2.25em;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin: 0;
@@ -300,7 +296,6 @@ button {
   flex-flow: row wrap;
   background: url(../img/rawpixel-800820-unsplash1.jpg) center no-repeat;
   background-size: cover;
-  min-height: 1500px;
 }
 .features h2 {
   margin-bottom: 50px;
@@ -324,6 +319,8 @@ button {
 .features i {
   font-size: 3.75em;
   padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 .reviews {
   display: flex;
@@ -391,10 +388,9 @@ button {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
 }
 .faq h2 {
-  margin-bottom: 50px;
+  margin: 0;
 }
 .faq content {
   margin-bottom: 50px;
@@ -520,6 +516,7 @@ button {
       header figure {
       display: flex;
       justify-content: space-between;
+      flex-basis: 33%;
       }
  
       header .content-wrapper {
@@ -538,6 +535,7 @@ button {
       .header-divider {
         display: contents;
       }
+
  
       /* Hero Area */
 
@@ -614,6 +612,7 @@ button {
       footer h4 {
       font-size: 1.5em;
       }
+
       footer .copyright {
         width: 100%;
       }
