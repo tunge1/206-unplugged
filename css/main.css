@@ -101,6 +101,8 @@ body {
 
 ul, ol {
  list-style-type: none;
+ margin: 0;
+ padding: 0;
 }
 
 a {
@@ -110,12 +112,16 @@ a {
 
 h2 {
  font-family: 'Poppins', sans-serif;
- font-size: 1.875em; 
+ font-size: 1.875em;
+ font-weight: 500;
+ margin: 0;
 }
 
 h3, h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+font-family: 'Poppins', sans-serif;
+font-size: 1.125em;
+font-weight: 500;
+margin: 20px 0;
 }
 
 p {
@@ -176,6 +182,8 @@ header figure {
 }
 
 header nav {
+  width: 100%;
+  font-size: 1.25em;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -190,7 +198,6 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
-  text-decoration: bold;
 }
 footer {
   flex-direction: column;
@@ -540,7 +547,7 @@ button {
       /* Hero Area */
 
       .hero-area {
-      font-size: 3em;
+      font-size: 1.25em;
       line-height: 1;
       margin: 0;
       min-height: 500px;
@@ -552,6 +559,7 @@ button {
       display: flex;
       justify-content: space-around;
       flex-flow: row wrap;
+      width: 90%;
       }
  
       aside .content-wrapper .form-description,
@@ -608,6 +616,12 @@ button {
       footer .contact {
         margin-bottom: 0;
       }
+
+      footer .social-icons {
+        width: 200px;
+      }
+
+      footer
 
       footer h4 {
       font-size: 1.5em;
@@ -671,6 +685,7 @@ button {
       /*Desktop styles here*/
       .content-wrapper {
         max-width: 960px;
+        margin: 50px 0;
       }
       h2 {
       font-size: 2.25em;
@@ -695,12 +710,12 @@ button {
       }
       /* Hero */
       .hero-area h1 {
-      width: 60%;
+      width: 90%;
       font-size: 3.75em;
       }
       
       .hero-area img {
-        max-height: 600px;
+        height: 600px;
       }
       /* Aside */
       aside .content-wrapper {
