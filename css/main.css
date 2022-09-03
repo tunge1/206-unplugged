@@ -710,12 +710,8 @@ button {
       }
       /* Hero */
       .hero-area h1 {
-      width: 90%;
-      font-size: 3.75em;
-      }
-      
-      .hero-area img {
-        height: 600px;
+      width: 80%;
+      font-size: 3em;
       }
       /* Aside */
       aside .content-wrapper {
